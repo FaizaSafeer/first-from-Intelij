@@ -6,7 +6,7 @@ public class Task5 {
     // Example:  createEmail(John, Snow, gmail) → johnsnow@gmail.com
     
     String createEmail(String username,String lastname,String emailtype){
-        return username+lastname+"@"+emailtype;
+        return (username+lastname+"@"+emailtype).toLowerCase();
         
     }
 

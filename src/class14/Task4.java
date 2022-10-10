@@ -5,20 +5,28 @@ public class Task4 {
     // when method is executed
 
     void countryname(String country ){
-        if (country.equals("Pakistan")){
-            System.out.println("AssamoAleikum");
-        }else if (country.equals("Germany")){
-            System.out.println("Hallo");
-        }else if (country.equals("Sweden")){
-            System.out.println("Halla");
-        }else if  (country.equals("Turkey")){
-            System.out.println("marhababa");
-        }else if  (country.equals("Spain")){
-            System.out.println("Hola");
-        }else if (country.equals("USA")){
-            System.out.println("Hey");
-        }else {
-            System.out.println(" Dont know whhat they say as Hello");
+        switch (country) {
+            case "Pakistan":
+                System.out.println("AssamoAleikum");
+                break;
+            case "Germany":
+                System.out.println("Hallo");
+                break;
+            case "Sweden":
+                System.out.println("Halla");
+                break;
+            case "Turkey":
+                System.out.println("marhababa");
+                break;
+            case "Spain":
+                System.out.println("Hola");
+                break;
+            case "USA":
+                System.out.println("Hey");
+                break;
+            default:
+                System.out.println(" Dont know whhat they say as Hello");
+                break;
         }
 
 }

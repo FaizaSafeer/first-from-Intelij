@@ -8,22 +8,26 @@ public class Student {
     //score >70 - C
     //score > 50 - D
     //anything else - F
-    String getGrade(int score){
-        if (score>90){
-            return "A";
-        }else if (score >80){
-            return "B";
-        }else if (score>70){
-            return "C";
-        }else if (score>50){
-            return "D";
-        }else {
-            return "F";
+
+        char getGrade(int score){
+            char grade;
+            if(score>90){
+                grade='A';
+            }else if( score>80){
+                grade='B';
+            }else if(score>70){
+                grade='C';
+            }else if(score>50){
+                grade='D';
+            }else {
+                grade='F';
+            }
+            return grade;
         }
-    }
+
 
     public static void main(String[] args) {
         Student marks=new Student();
-        System.out.println(marks.getGrade(75));
+        System.out.println(marks.getGrade(99));
     }
 }

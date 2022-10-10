@@ -4,6 +4,7 @@ public class Task3 {
    // Create a method that will print whether given String is palindrome or not.
     
     void palindrome (String str){
+        str=str.toLowerCase();
         StringBuilder sb=new StringBuilder(str);
         sb.reverse();
         if(sb.toString().equals(str)){

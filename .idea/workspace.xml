@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b60e006f-9d1f-45d2-8c35-9f72e1131060" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDETbatch14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class12/praCTICE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class16/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class14/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class14/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class14/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class14/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class14/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class14/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class14/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class14/Task5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FLzamKfUppQ9gumd2WxgDw6j6H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,16 +42,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task6">
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class14.Student" />
+  <component name="RunManager" selected="Application.Tester">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class19.Test" />
       <module name="SDETbatch14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class14.*" />
+          <option name="PATTERN" value="class19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class14.Task3" />
+    <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class19.TestAnimal" />
       <module name="SDETbatch14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class14.*" />
+          <option name="PATTERN" value="class19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class14.Task4" />
+    <configuration name="TestChair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class19.TestChair" />
       <module name="SDETbatch14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class14.*" />
+          <option name="PATTERN" value="class19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class14.Task5" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class19.Tester" />
       <module name="SDETbatch14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class14.*" />
+          <option name="PATTERN" value="class19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class14.Task6" />
+    <configuration name="repls130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="repls.repls130" />
       <module name="SDETbatch14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class14.*" />
+          <option name="PATTERN" value="repls.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task6" />
-        <item itemvalue="Application.Student" />
-        <item itemvalue="Application.Task5" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.TestChair" />
+        <item itemvalue="Application.TestAnimal" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.repls130" />
       </list>
     </recent_temporary>
   </component>
@@ -140,5 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

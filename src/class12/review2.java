@@ -33,7 +33,7 @@ public class review2 {
 
         // some examples
         char single=newString.substring(6).charAt(0);
-        System.out.println(single);
+        System.out.println("Single"+single);
 
         // newString.charAt(0).substring(6); CE
 

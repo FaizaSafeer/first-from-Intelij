@@ -7,20 +7,25 @@ public class HW1 {
             Box
 
     Use separate class to test your code*/
-}
-class area{
-   void calculateArea(int a){
-        System.out.println("Area of Square is "+(a*a));
-    }
-    void calculateArea(int l, int w){
-        System.out.println("Area of rectangle is "+(l*w));
-    }
-    void calculateArea(int l,int w,int h){
-        System.out.println("Area of box is "+ (l*w*h));
-    }
+  public static void main(String[] args) {
+      AreaManager areaManager=new AreaManager();
+      areaManager.calculateArea(10);
+      areaManager.calculateArea(10,12);
 
-
-
+  }
 }
 
+class AreaManager{
+
+    void calculateArea(double len,double wid){
+        System.out.println(len*wid);
+    }
+    void calculateArea(double len){
+        System.out.println(len*len);
+    }
+
+    void calculateVolume(double len,double height, double wid){
+        System.out.println(len*wid*height);
+    }
+}
 
